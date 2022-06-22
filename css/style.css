@@ -166,18 +166,22 @@ h1,h2,h3,h4,h5,h6,p,ul{margin: 0px;}
 	margin-left: 20px;
 
 }
+
 .nav-link{
 	padding: 32px 0px;
-	margin: 0;
-
+	display: flex;
 }
+
+
 
 .link{
 	color: var(--title-color);
 	text-decoration: none;
+	
 }
 .link:hover, .link:focus{
 	color:var(--hover-color);
+	fill: var(--hover-color);
 }
 .link-active{
 	color: var(--active-color);
@@ -193,6 +197,13 @@ h1,h2,h3,h4,h5,h6,p,ul{margin: 0px;}
 .contact-link {
 	color: var(--text-color);
 	text-decoration: none;
+}
+.link-icon {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	fill: inherit;
+	vertical-align: middle;
 }
 
 .contact-list .nav-link + .nav-link{
