@@ -172,8 +172,6 @@ h1,h2,h3,h4,h5,h6,p,ul{margin: 0px;}
 	display: flex;
 }
 
-
-
 .link{
 	color: var(--title-color);
 	text-decoration: none;
@@ -187,6 +185,7 @@ h1,h2,h3,h4,h5,h6,p,ul{margin: 0px;}
 	color: var(--active-color);
 }
 .contact-list {
+
 	padding: 0;
 	margin: 0;
 	margin-left: auto;
@@ -194,10 +193,13 @@ h1,h2,h3,h4,h5,h6,p,ul{margin: 0px;}
 	text-decoration: none;
 	list-style-type: none;
 }
+
 .contact-link {
+	display: flex;
 	color: var(--text-color);
 	text-decoration: none;
 }
+
 .link-icon {
 	width: 16px;
 	height: 16px;
@@ -229,6 +231,7 @@ h1,h2,h3,h4,h5,h6,p,ul{margin: 0px;}
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+
 }
 .hero-title{
 	
@@ -256,6 +259,7 @@ h1,h2,h3,h4,h5,h6,p,ul{margin: 0px;}
 	flex-wrap: wrap;
 	list-style-type: none;
 }
+
 .feature-box{
 	display: flex;
 	justify-content: center;
@@ -268,12 +272,12 @@ h1,h2,h3,h4,h5,h6,p,ul{margin: 0px;}
 	margin-bottom: 30px;
 	
 }
+
 .box-icon{
 width: 70px;
 height: 70px;
-
-
 }
+
 .feature-list{
 	width: 270px;
 	margin-right: 30px;
