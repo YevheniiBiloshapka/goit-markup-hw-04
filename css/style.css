@@ -452,6 +452,8 @@ text-decoration: none;
 
 }
 .client-logo{
+	border: 1px solid #AFB1B8;
+	border-radius: 4px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -462,6 +464,7 @@ text-decoration: none;
 }
 .client-logo:hover, .client:focus{
 	fill:var(--hover-color);
+	border: 1px solid #2196F3;
 
 }
 .client-logo:last-child {
@@ -525,6 +528,7 @@ text-decoration: none;
 	margin-right: 10px;
 	width: 206px;
 	list-style: none;
+	
 }
 .connect-social:last-child{
 	margin: 0;
