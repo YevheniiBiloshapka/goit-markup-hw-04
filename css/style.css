@@ -163,19 +163,19 @@ h1,h2,h3,h4,h5,h6,p,ul{margin: 0px;}
 	list-style-type: none;
 }
 .nav-list .nav-link + .nav-link {
-	margin-left: 20px;
+	margin-left: 50px;
 
 }
 
 .nav-link{
-	padding: 32px 0px;
+	
 	display: flex;
 }
 
 .link{
 	color: var(--title-color);
 	text-decoration: none;
-	
+	padding: 32px 0px;
 }
 .link:hover, .link:focus{
 	color:var(--hover-color);
@@ -232,6 +232,10 @@ h1,h2,h3,h4,h5,h6,p,ul{margin: 0px;}
 	background-position: center;
 	background-size: cover;
 
+}
+.hero-text {
+	margin: 0 auto;
+	width: 700px;
 }
 .hero-title{
 	
@@ -303,7 +307,7 @@ height: 70px;
 }
 
  /* ! What are we doing  */
-.section:nth-child(3n) {
+.section-about {
 	padding-top: 0px;
 }
 .applications{
@@ -343,9 +347,8 @@ height: 70px;
 	line-height: 1.1;
 }
 
-.team-img{
-margin-bottom: 30px;
-}
+
+
 .team-card:nth-child(4n) {
 	margin-right: 0px;
 }
@@ -353,21 +356,25 @@ margin-bottom: 30px;
 .team-card:nth-last-child(-n + 4) {
 	margin-bottom: 0px;
 }
+.card-text-tumb {
 
+	padding: 30px;
+}
 .team-card-name {
 	margin-bottom: 10px;
 	font-weight: 500;
-
+	font-size: 16px;
 	color: #212121;
 }
 
 .team-card-job {
 	margin-bottom: 16px;
 	color: var(--text-color);
+	font-size: 16px;
 }
 
 .team-social{
-margin: 0px 32px 30px;
+margin: 0 auto;
 display: flex;
 width: 206px;
 list-style: none;
@@ -420,11 +427,11 @@ list-style: none;
 text-decoration: none;
 }
 .project-img{
-	margin-bottom: 20px;
+
 }
 
 .project-info{
-	padding:0 24px 20px 24px;
+	padding:20px 24px 20px 24px;
 	
 }
 .project-name {
@@ -473,10 +480,11 @@ text-decoration: none;
 
 /* ! footer  */
 .background-container {
+	
 	background-color: var(--bg-color);
 }
 .background-container > .container{
-	padding: 60px 0px 60px 0;
+
 	display: flex;
 	flex-wrap: wrap;
 }
